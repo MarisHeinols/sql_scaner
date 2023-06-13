@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" />
+    <title>SQL Injection Scanner</title>
+    <style>
+        body {
+            display: flex ;
+            justify-content: center ;
+            align-items: center ;
+            flex-direction: column ;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: #ffffff;
+            font-size: medium;
+            background-color: #202020
+        }
+
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #output {
+            color: #ffffff;
+            margin-top: 20px;
+            font-size: 16px;
+            width: 400px; /* Adjust the width as per your preference */
+            white-space: pre-wrap; /* Preserve line breaks and wrap long text */
+            background-color: #202020; /* Add a background color to the output box */
+            padding: 10px; /* Add some padding for spacing */
+            border: 1px solid #ccc; /* Add a border for visual separation */
+            border-radius: 5px; /* Add border radius for a rounded appearance */
+        }
+    </style>
+</head>
+<body>
+    <h1>SQL Injection Scanner</h1>
+    <button id="runButton" style="background: #FFDE59; width: 30%; height: 30px; border-radius: 20px;">Check the HTML</button>
+    <div id="output"></div>
+
+    <script src="prism.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
